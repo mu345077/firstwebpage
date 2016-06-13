@@ -1,0 +1,62 @@
+
+body{
+  background-color: gray;
+}
+div h1
+{
+  float: left;
+  width: 100%
+}
+h1
+{
+  text-shadow: 1px 2px brown;
+  position: absolute;
+}
+header
+{
+  background-image: url("body.png");
+  background-color: #cccccc;
+
+}
+nav{
+  background-image: url("sky.jpg");
+}
+footer
+{
+  background-color: black;
+}
+li{
+  display: inline;
+  padding-right: 10px;
+margin-right: 20px;
+font-size: 25px;
+  float: right;
+  color: brown;
+}
+a{
+  text-decoration: none;
+}
+ul li a.visited{
+  color: brown;
+}
+ul li a.hover
+{
+  color: red;
+}
+ul li a.active
+{
+  text-decoration: underline;
+  color: cyan;
+}
+ul li a img{
+  float: right;
+}
+img{
+  position: relative;
+
+}
+h3
+{
+  color: white;
+  text-align:justify;
+}
